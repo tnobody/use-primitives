@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react-hooks';
-import { useArray } from '../../../src';
+import { useArray } from '../../src';
 
 describe('useArray', () => {
   it('should initialize with empty array', () => {
