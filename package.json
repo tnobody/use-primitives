@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -36,7 +36,8 @@
   "name": "use-primitives",
   "author": "Tim Keiner",
   "module": "dist/use-primitives.esm.js",
-  "size-limit": [{
+  "size-limit": [
+    {
       "path": "dist/use-primitives.cjs.production.min.js",
       "limit": "10 KB"
     },
