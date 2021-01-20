@@ -19,7 +19,9 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "16.13.1"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -34,8 +36,7 @@
   "name": "use-primitives",
   "author": "Tim Keiner",
   "module": "dist/use-primitives.esm.js",
-  "size-limit": [
-    {
+  "size-limit": [{
       "path": "dist/use-primitives.cjs.production.min.js",
       "limit": "10 KB"
     },
