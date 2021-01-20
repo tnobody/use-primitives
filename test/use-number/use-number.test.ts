@@ -2,6 +2,12 @@ import { act, renderHook } from '@testing-library/react-hooks';
 import { useNumber } from '../../src/use-number/use-number';
 
 describe('useNumber', () => {
+
+  it('should initialize with 0', () => {
+    const { result } = renderHook(() => useNumber());
+    expect(result.current[0]).toEqual(0);
+  });
+
   describe('add', () => {
     it('21 + 21 === 42', () => {
       const { result } = renderHook(() => useNumber(21));

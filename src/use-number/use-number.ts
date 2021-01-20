@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 
-export const useNumber = (initValue: number) => {
+export const useNumber = (initValue: number = 0) => {
   const [value, setValue] = useState(initValue);
 
   const add = useCallback((a: number) => setValue(v => v + a), []);
