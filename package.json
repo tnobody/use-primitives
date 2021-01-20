@@ -48,7 +48,7 @@
     "@size-limit/preset-small-lib": "^4.8.0",
     "@testing-library/react-hooks": "^3.4.2",
     "@types/react": "^16.14.0",
-    "husky": "^4.3.0",
+    "husky": "^5.0.6",
     "react": "^17.0.1",
     "react-test-renderer": "^17.0.1",
     "size-limit": "^4.8.0",
