@@ -34,7 +34,6 @@ jobs:
 
       - name: Build
         run: yarn build
-      - uses: actions/
       - name: Publish tagged release
         run: yarn publish
         env:
