@@ -1,1 +1,1 @@
-export * from './use-array'
+export * from './use-array';
