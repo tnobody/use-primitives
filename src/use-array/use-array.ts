@@ -7,8 +7,8 @@ const isPredicate = <T>(pred: PredicateOrStatic<T>): pred is Predicate<T> =>
   typeof pred === 'function';
 
 export const useArray = <T>(initValue: T[] = []) => {
-  const [value, setValue] = useState(initValue);
-
+  const [value, setValue] = useState<ReadonlyArray<T>>(initValue);
+  
   const length = useMemo(() => value.length, [value]);
 
   const append = useCallback((...item: T[]) => {
